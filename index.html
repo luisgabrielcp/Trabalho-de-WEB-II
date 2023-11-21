@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Pet Shop</title>
+    
+</head>
+<body>
+
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <h1>Pet Shop ISEPAM<br>Venha ser da nossa família</h1>
+            <img src="dog.svg" class="Dogo" alt="dog">
+        </div>
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <h1>Cadastro</h1>
+                <div class="textfield">
+                    <label for="input_name">Nome:</label>
+                    <input type="text" id="nome_cliente" name="input_name" placeholder="Nome" required>
+                </div>
+                <div class="textfield">
+                    <label for="input_cpf">CPF:</label>
+                    <input type="text" id="cpf_cliente" name="input_cpf" placeholder="CPF" required>
+                </div>
+                <div class="textfield">
+                    <label for="date_cliente">Data de Nascimento:</label>
+                    <input type="date" id="nasc_cliente" name="date_cliente" required>
+                </div>
+                <div class="textfield">
+                    <label for="input_genero">Gênero:</label>
+                    <select id="genero_cliente" name="input_genero" required>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                    <button type="submit" id="cadastrarBtn">Cadastrar</button>                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
